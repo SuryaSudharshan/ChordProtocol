@@ -1,0 +1,11 @@
+{application,chord_simulator,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"chord_simulator"},
+              {modules,['Elixir.ChordProtocol',
+                        'Elixir.ChordProtocol.Application',
+                        'Elixir.ChordProtocol.Manager',
+                        'Elixir.ChordProtocol.Node',
+                        'Elixir.ChordProtocol.Node.Peer',
+                        'Elixir.ChordProtocol.Supervisor']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
